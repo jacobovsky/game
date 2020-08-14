@@ -28,6 +28,7 @@ class Player(object):
         self.hitboxCellDim = 5
         self.hitboxCheckArray = []
         self.queue = [self.x, self.x, self.y, self.y]
+        self.asd = 'asd'
 
         self.isRight = True
         self.isLeft = False
